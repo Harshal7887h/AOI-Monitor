@@ -8,7 +8,7 @@ char ssid[] = "realme 9 5G";
 char pass[] = "Harshal7887###";
 
 #define DHTPIN D4  
-#define DHTTYPE DHT22
+#define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 #define MQ135PIN A0  
 
